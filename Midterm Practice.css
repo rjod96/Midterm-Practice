@@ -5,6 +5,7 @@ body {
   background-color: #FFF5EE;
   max-width: 900px;
   margin: auto;
+  overflow: auto;
 }
 .left-column p {
   margin: 0;
@@ -33,10 +34,14 @@ h1 {
   width: 25%;
   float: left;
   overflow: auto;
+  padding-top: 15px;
+  padding-right: 30px;
 
 }
 .right-column {
   width: 75%;
   float: right;
   overflow: auto;
+  padding-top: 15px;
+  padding-right: 30px;
 }
