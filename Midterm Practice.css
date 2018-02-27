@@ -3,6 +3,8 @@ body {
 }
 .container {
   background-color: #FFF5EE;
+  max-width: 900px;
+  margin: auto;
 }
 .left-column p {
   margin: 0;
