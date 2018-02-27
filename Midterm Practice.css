@@ -7,10 +7,10 @@ body {
 .left-column p {
   margin: 0;
 }
-.left-column p1 {
+.left-column p:nth-child(1){
   font-weight: bold;
   font-size: 17px;
 }
-.left-column p2 {
+.left-column p:nth-child(2){
   font-style: italic;
 }
