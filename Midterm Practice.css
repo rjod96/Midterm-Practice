@@ -9,4 +9,8 @@ body {
 }
 .left-column p1 {
   font-weight: bold;
+  font-size: 17px;
+}
+.left-column p2 {
+  font-style: italic;
 }
