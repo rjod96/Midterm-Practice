@@ -1,5 +1,6 @@
 body {
   background-color: #696969;
+  font-family: sans-serif; /* changed font family to sans serif*/
 }
 .container {
   background-color: #FFF5EE;
@@ -9,6 +10,8 @@ body {
 }
 .left-column p {
   margin: 0;
+  color: purple; /* changed color from black to purple*/
+  font-family: monospace;/*changed font family to monospace*/
 }
 .left-column p:nth-child(1){
   font-weight: bold;
@@ -23,12 +26,21 @@ body {
 .caption {
   font-size: 10px;
   color: gray;
+  font-variant: small-caps;/*changed font variant to small caps*/
+  text-decoration: underline;/*changed text decoration to underline*/
+  text-shadow: 50px;/*adjusted text shadow*/
+  text-transform: capitalize; /*changed text transform*/
+  text-decoration-color: blue;/*adjusted text decoration color*/
 }
 .img {
   margin-bottom:10px;
 }
 h1 {
   font-size: 35px;
+  text-shadow: 15px;/*changed text shadow*/
+  text-decoration: underline;/*changed text decoration*/
+  text-decoration-style: dotted;/*chaned text decoration style*/
+  text-decoration-color: white; /*changed text decoraton color*/
 }
 .left-column {
   width: 25%;
@@ -36,6 +48,9 @@ h1 {
   overflow: auto;
   padding-top: 15px;
   padding-right: 30px;
+  font-family: inherit;/*changed font-family*/
+  text-shadow: 15px; /* changed text shadow*/
+  font-color: blue;
 
 }
 .right-column {
@@ -44,7 +59,11 @@ h1 {
   overflow: auto;
   padding-top: 15px;
   padding-right: 30px;
+  font-weight: lighter; /*changed font weight to lighter*/
+  font-family: serif; /*changed font-family*/
+  color: dark gray;/*changed color to gray*/
+  text-shadow: 10px; /*changed text shadow*/
 }
 @media(min-width:500){
-  
+
 }
