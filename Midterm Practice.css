@@ -7,3 +7,6 @@ body {
 .left-column p {
   margin: 0;
 }
+.left-column p1 {
+  font-weight: bold;
+}
